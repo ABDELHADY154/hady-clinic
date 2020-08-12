@@ -8,6 +8,8 @@ export default class About extends Component {
         className="masthead"
         style={{ backgroundImage: "none", backgroundColor: "#8D837D" }}
       >
+        {/* {console.log(window.location.pathname)} */}
+
         <div className="container h-100">
           <div className="row h-100 align-items-center justify-content-center text-center">
             <div className="col-lg-10 align-self-center">

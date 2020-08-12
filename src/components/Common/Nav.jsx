@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import logo from "../Assets/img/logo2.png";
 import Home from "../Home/Home";
 import About from "../About/About";
 
@@ -8,14 +9,19 @@ export default class Navbar extends Component {
     return (
       <Router>
         <nav
-          className="navbar navbar-expand-lg navbar-light fixed-top py-3"
+          className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-1"
           id="mainNav"
-          // style={{ backgroundColor: "black" }}
         >
           <div className="container">
-            <a className="navbar-brand js-scroll-trigger" href="/">
-              <span style={{ color: "#008ACF" }}>HADY</span>CLINIC
+            <a
+              className="navbar-brand js-scroll-trigger"
+              href="/"
+              style={{ color: "white" }}
+            >
+              <img src={logo} alt="logo" height="50" width="150" />
+              {/* <span style={{ color: "#008ACF" }}>HADY</span>CLINIC */}
             </a>
+
             <button
               className="navbar-toggler navbar-toggler-right"
               type="button"
