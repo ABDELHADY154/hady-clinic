@@ -7,12 +7,7 @@ export default class Masthead extends Component {
         <div className="container h-100">
           <div className="row h-100 align-items-center justify-content-center text-center">
             <div className="col-lg-10 align-self-end">
-              {/* <h1 className="text-uppercase text-white">
-                Doctor <ca> ABDELHADY ELSHAMY</ca>
-              </h1> */}
               <h1 className="text-uppercase text-white">
-                {/* <span style={{ color: "#008ACF" }}>HADY</span>CLINIC
-                <br /> */}
                 <span>Doctor</span>
                 <br />
                 ABDELHADY ELSHAMY

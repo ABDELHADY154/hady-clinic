@@ -14,7 +14,6 @@ export default class Services extends Component {
                 </span>
               </h2>
               <h4 className="text-white mt-0">
-                {/* <hr className="divider light my-4" /> */}
                 <hr className="divider my-4" />
                 Specialized In Plastic Surgerys And Burn Treatment
               </h4>
@@ -67,7 +66,7 @@ export default class Services extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fas fa-envelope"></i>
+                  <i className="fas fa-envelope"></i>
                 </a>
                 <a
                   className="social-icon"
