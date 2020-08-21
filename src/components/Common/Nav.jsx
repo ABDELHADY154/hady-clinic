@@ -9,7 +9,7 @@ export default class Navbar extends Component {
     return (
       <Router>
         <nav
-          className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top py-1"
+          className="navbar navbar-expand-lg navbar-dark  bg-dark fixed-top py-1 "
           id="mainNav"
         >
           <div className="container">

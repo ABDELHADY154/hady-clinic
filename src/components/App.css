@@ -10550,6 +10550,9 @@ header.masthead h1 span {
 .social-icons .social-icon:hover {
   background-color: var(--info);
 }
+.carousel-caption {
+  opacity: 0.9;
+}
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;

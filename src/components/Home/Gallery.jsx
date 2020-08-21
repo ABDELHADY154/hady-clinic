@@ -4,49 +4,91 @@ import IMG from "../Assets/img/home.jpg";
 export default class Gallery extends Component {
   render() {
     return (
-      <section className="page-section" id="services">
+      <section className="page-section" id="gallary">
         <div className="container">
           <h2 className="text-center mt-0">At Your Service</h2>
           <hr className="divider my-4" />
           <div
-            id="carouselExampleControls"
-            className="carousel slide"
+            id="carouselExampleIndicators"
+            class="carousel slide"
             data-ride="carousel"
           >
-            <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img className="d-block w-100" src={IMG} alt="First slide" />
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src={IMG} alt="First slide" />
+                <div class="carousel-caption d-none d-md-block bg-dark rounded-pill">
+                  <h5>Lorem ipsum dolor sit amet.</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quidem repellat sint molestias nisi unde quae architecto
+                    quisquam eaque, rerum nihil voluptatem non, consequatur
+                    voluptatum modi repudiandae magnam animi est temporibus?
+                  </p>
+                </div>
               </div>
-              <div className="carousel-item">
-                <img className="d-block w-100" src={IMG} alt="Second slide" />
+              <div class="carousel-item">
+                <img class="d-block w-100" src={IMG} alt="Second slide" />
+                <div class="carousel-caption d-none d-md-block bg-dark rounded-pill">
+                  <h5>Lorem ipsum dolor sit amet.</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quidem repellat sint molestias nisi unde quae architecto
+                    quisquam eaque, rerum nihil voluptatem non, consequatur
+                    voluptatum modi repudiandae magnam animi est temporibus?
+                  </p>
+                </div>
               </div>
-              <div className="carousel-item">
-                <img className="d-block w-100" src={IMG} alt="Third slide" />
+              <div class="carousel-item">
+                <img class="d-block w-100" src={IMG} alt="Third slide" />
+                <div class="carousel-caption d-none d-md-block bg-dark rounded-pill">
+                  <h5>Lorem ipsum dolor sit amet.</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quidem repellat sint molestias nisi unde quae architecto
+                    quisquam eaque, rerum nihil voluptatem non, consequatur
+                    voluptatum modi repudiandae magnam animi est temporibus?
+                  </p>
+                </div>
               </div>
             </div>
             <a
-              className="carousel-control-prev"
-              href="#carouselExampleControls"
+              class="carousel-control-prev"
+              href="#carouselExampleIndicators"
               role="button"
               data-slide="prev"
             >
               <span
-                className="carousel-control-prev-icon"
+                class="carousel-control-prev-icon"
                 aria-hidden="true"
               ></span>
-              <span className="sr-only">Previous</span>
+              <span class="sr-only">Previous</span>
             </a>
             <a
-              className="carousel-control-next"
-              href="#carouselExampleControls"
+              class="carousel-control-next"
+              href="#carouselExampleIndicators"
               role="button"
               data-slide="next"
             >
               <span
-                className="carousel-control-next-icon"
+                class="carousel-control-next-icon"
                 aria-hidden="true"
               ></span>
-              <span className="sr-only">Next</span>
+              <span class="sr-only">Next</span>
             </a>
           </div>
         </div>
