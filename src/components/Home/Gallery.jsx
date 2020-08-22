@@ -10,7 +10,7 @@ export default class Gallery extends Component {
           <hr className="divider my-4" />
           <div
             id="carouselExampleIndicators"
-            class="carousel slide"
+            class="carousel slide h-25"
             data-ride="carousel"
           >
             <ol class="carousel-indicators">
@@ -29,41 +29,14 @@ export default class Gallery extends Component {
               ></li>
             </ol>
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item active ">
                 <img class="d-block w-100" src={IMG} alt="First slide" />
-                <div class="carousel-caption d-none d-md-block bg-dark rounded-pill">
-                  <h5>Lorem ipsum dolor sit amet.</h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quidem repellat sint molestias nisi unde quae architecto
-                    quisquam eaque, rerum nihil voluptatem non, consequatur
-                    voluptatum modi repudiandae magnam animi est temporibus?
-                  </p>
-                </div>
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100" src={IMG} alt="Second slide" />
-                <div class="carousel-caption d-none d-md-block bg-dark rounded-pill">
-                  <h5>Lorem ipsum dolor sit amet.</h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quidem repellat sint molestias nisi unde quae architecto
-                    quisquam eaque, rerum nihil voluptatem non, consequatur
-                    voluptatum modi repudiandae magnam animi est temporibus?
-                  </p>
-                </div>
               </div>
               <div class="carousel-item">
                 <img class="d-block w-100" src={IMG} alt="Third slide" />
-                <div class="carousel-caption d-none d-md-block bg-dark rounded-pill">
-                  <h5>Lorem ipsum dolor sit amet.</h5>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quidem repellat sint molestias nisi unde quae architecto
-                    quisquam eaque, rerum nihil voluptatem non, consequatur
-                    voluptatum modi repudiandae magnam animi est temporibus?
-                  </p>
-                </div>
               </div>
             </div>
             <a

@@ -6230,6 +6230,7 @@ a.close.disabled {
   position: relative;
   width: 100%;
   overflow: hidden;
+  max-height: 35rem;
 }
 .carousel-inner::after {
   display: block;
@@ -10441,7 +10442,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 2rem 0;
 }
 
 #mainNav {
@@ -10523,7 +10524,7 @@ header.masthead {
     url("./Assets/img/home.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-size: cover;
 }
 header.masthead h1 {
