@@ -3,6 +3,7 @@ import Masthead from "./Masthead";
 import Services from "./Services";
 import Gallery from "./Gallery";
 import SimpleMap from "./Map";
+import Form from "./Form";
 
 export default class Home extends Component {
   render() {
@@ -12,6 +13,7 @@ export default class Home extends Component {
         <Services />
         <Gallery />
         <SimpleMap />
+        <Form />
       </Fragment>
     );
   }

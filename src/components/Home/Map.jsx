@@ -21,6 +21,7 @@ export default class SimpleMap extends Component {
               aria-hidden="false"
               tabindex="0"
               title="map"
+              className="w-75"
             ></iframe>
           </div>
         </div>

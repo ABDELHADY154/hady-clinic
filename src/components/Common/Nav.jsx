@@ -19,7 +19,6 @@ export default class Navbar extends Component {
               style={{ color: "white" }}
             >
               <img src={logo} alt="logo" height="50" width="150" />
-              {/* <span style={{ color: "#008ACF" }}>HADY</span>CLINIC */}
             </a>
 
             <button
